@@ -1,5 +1,5 @@
 #!/bin/bash
-person1=Trump
+person1=Trump # There should be no space between before and after the = symbol 
 person2=Musk
 echo "$person1: Hey $person2, How are you ?"
 echo "$person2: Hello $person1, I am fine, How are you doing?"
