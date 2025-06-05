@@ -9,7 +9,7 @@ exit 1 # give other than 0 upto 127
 else
 echo " you are running with the root access"
 fi 
-dnf install mysq -y 
+dnf install mysql -y 
 
 if [ $? -eq 0 ]
 then 
